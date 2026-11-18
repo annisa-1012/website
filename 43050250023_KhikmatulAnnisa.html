@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Saya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>  
+        <h1>Khikmatul Annisa ʚ🩷ɞ</h1>  
+        <h2>Mahasiswa <strong>Teknologi Informasi</strong>  <span id="label-semester" class="badge"></span></h2>
+        <p id="sapaan"></p>
+        <nav>    
+            <a class="menu-link" href="#tentang">Tentang</a> |    
+            <a class="menu-link" href="#pendidikan">Pendidikan</a> |    
+            <a class="menu-link" href="#keahlian">Keahlian</a> | 
+            <a class="menu-link" href="#kontak">Kontak</a>  
+        </nav> 
+    </header>
+
+    <main>
+        <section id="tentang">
+            <!-- Foto di sebelah kiri -->
+            <img src="https://lh3.googleusercontent.com/d/1CU9IcR5e-rhOGNqN4t53czOGRbLO0II9" alt="Foto Khikmatul Annisa" width="250" style="display: block; margin-top: 20px; margin-bottom: 15px;">
+
+            <!-- Kelompok teks di sebelah kanan foto -->
+            <div class="bio-text">
+                <h2>Tentang Saya≽^•⩊•^≼</h2>
+                <p>Halo! Saya Khikmatul Annisa, mahasiswa semester 3 Program Studi Teknologi Informasi di UIN Salatiga. Saya sedang belajar membangun website dari dasar.</p>
+                <p>Saya tertarik pada dunia web development dan berharap bisa membuat aplikasi web yang bermanfaat suatu saat nanti.</p>
+                <p id="info-tambahan"></p>
+            </div>
+        </section>
+
+        <section id="pendidikan">
+            <h3>Riwayat Pendidikan</h3>
+            <table>
+                <tr>
+                    <th>Tahun</th>
+                    <th>Jenjang</th>
+                    <th>Institusi</th>
+                </tr>
+                <tr>
+                    <td>2022 - 2025</td>
+                    <td>SMK</td>
+                    <td>SMK Syubbanul Wathon Magelang</td>
+                </tr>
+                <tr>
+                    <td>2025 - sekarang</td>
+                    <td>S1</td>
+                    <td>UIN Salatiga</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="keahlian">
+            <div class="skill-block">
+                <h3>Keahlian</h3>
+                <ul>
+                    <li>HTML &amp; CSS dasar</li>
+                    <li>Logika pemrograman (Python)</li>
+                    <li>Desain sederhana dengan Canva</li>
+                </ul>
+                <ul id="keahlian-tambahan"></ul>
+            </div>
+
+            <div class="skill-block">
+                <h3>Urutan Belajar Semester Ini</h3> 
+                <ol>  
+                    <li>HTML</li>  
+                    <li>CSS</li>  
+                    <li>JavaScript</li> 
+                </ol>
+            </div>
+        </section>
+
+        <section id="kontak">
+            <h3>Hubungi Saya</h3>
+            <form id="form-kontak">
+                <label for="nama">Nama:</label><br>
+                <input type="text" id="nama" name="nama"><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="pesan">Pesan:</label><br>
+                <textarea id="pesan" name="pesan" rows="4" cols="30"></textarea><br><br>
+
+                <button type="submit">Kirim</button>
+            </form>
+            <p id="hasil-form" style="color: red; font-weight: bold;"></p> 
+            <p>Atau langsung saja: 
+                <a href="https://github.com/annisa-1012" target="_blank">GitHub</a> |
+                <a href="mailto:Khikmatul.annisa@gmail.com">Email Saya</a>
+            </p>
+
+            <button type="button" id="btn-cek">Cek Info Diri</button>
+            <p id="hasil-cek" style="font-weight: bold; margin-top: 10px;"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Khikmatul Annisa</p>
+        <p id="status-uts"></p>
+    </footer>
+
+    <!-- Menghubungkan ke file script.js eksternal -->
+    <script src="script.js" defer></script>
+
+</body>
+</html>
