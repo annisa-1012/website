@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+    color: #140d11;
+    background-color: #fdf0f5;
+}
+
+
+header, main, footer {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+header {
+    background-color: #fee0f1;
+    color: #130e13;
+    padding: 25px 30px;
+    border-radius: 8px 8px 0 0;
+}
+
+header h1, header h2 {
+    margin: 5px 0;
+}
+
+h1 {
+    color: #080607;
+}
+
+h2 {
+    color: #fe74d5;
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+.badge {
+    display: inline-block;
+    background-color: #CADCFC;
+    color: #1E2761;
+    font-size: 0.75rem;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-style: normal; /* Biar teks badge tidak miring */
+}
+
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a, .menu-link {
+    color: #7a7777;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+nav a:hover, .menu-link:hover {
+    color: #a1e7fb;
+    text-decoration: underline;
+}
+
+
+section {
+    padding: 20px;
+    border: 1px solid #f8a6e6;
+    margin-bottom: 20px;
+}
+
+#tentang {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    background-color: #F1F3F9;
+}
+
+#keahlian {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    background-color: #F1F3F9;
+}
+
+.skill-block {
+    flex: 1;
+}
+
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #1E2761;
+    font-weight: normal;
+    font-style: italic;
+}
+
+p {
+    line-height: 1.7;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    color: #5B6478;
+}
+
+footer hr {
+    border: none;
+    border-top: 1px solid #e5e7eb;
+    margin-bottom: 15px;
+}
